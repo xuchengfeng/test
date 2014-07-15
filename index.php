@@ -1,4 +1,6 @@
 <?php
-    echo 'hello world';
+    
+	$str = 'a:2:{s:20:"conditionGroupList_0";a:3:{s:14:"conditionLogic";s:2:"or";s:9:"condition";a:2:{i:0;a:5:{s:5:"Field";s:12:"JiHuaNeiRong";s:8:"Operator";s:4:"less";s:9:"Reference";s:15:"dsadsdsaadsadsa";s:14:"ReferenceField";s:0:"";s:5:"Table";s:16:"JuTiJiHuaNeiRong";}i:1;a:5:{s:5:"Field";s:0:"";s:8:"Operator";s:5:"equal";s:9:"Reference";s:0:"";s:14:"ReferenceField";s:0:"";s:5:"Table";s:20:"JiHuaHuiBaoShenPiBia";}}s:17:"conditionExecutor";a:1:{i:2;a:3:{s:8:"workNode";s:10:"WorkNode_5";s:8:"assignto";a:2:{i:0;a:6:{s:2:"id";s:3:"140";s:9:"parent_id";s:1:"2";s:4:"Type";s:4:"role";s:7:"checked";b:1;s:4:"name";s:21:"董事长特别助理";s:6:"Parent";s:1:"2";}i:1;a:6:{s:2:"id";s:3:"396";s:9:"parent_id";s:1:"2";s:4:"Type";s:10:"department";s:7:"checked";b:1;s:4:"name";s:16:"项目管控组v";s:6:"Parent";s:1:"2";}}s:12:"nodeexecutor";s:0:"";}}}s:20:"conditionGroupList_1";a:3:{s:14:"conditionLogic";s:3:"and";s:17:"conditionExecutor";a:1:{i:0;a:3:{s:8:"workNode";s:10:"WorkNode_6";s:8:"assignto";a:2:{i:0;a:6:{s:2:"id";s:1:"2";s:9:"parent_id";s:1:"1";s:4:"Type";s:4:"role";s:7:"checked";b:1;s:4:"name";s:21:"董事长兼总经理";s:6:"Parent";s:1:"1";}i:1;a:6:{s:2:"id";s:1:"7";s:9:"parent_id";s:1:"2";s:4:"Type";s:10:"department";s:7:"checked";b:1;s:4:"name";s:15:"产品研发部";s:6:"Parent";s:1:"2";}}s:12:"nodeexecutor";s:0:"";}}s:9:"condition";a:0:{}}}';
+	echo unserialize($str);
 
 ?>
